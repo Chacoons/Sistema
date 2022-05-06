@@ -7,14 +7,78 @@ body{
     
 }
 
+
+    
 .desktop {
     width: 1050px;
     height: 600px;
   margin-top: 4rem;
+  
 }
 
 .desktop img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+.barra{
+background-color: #455136 ;
+
+width: 1050px;
+height: 3rem;
+position:absolute;
+display: flex;
+align-items: center;
+
+}
+
+
+.buscador{
+    background-color: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 8px;
+    width: 20rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.lupa {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 0.2rem;
+}
+
+.barra svg{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 1rem;
+}
+
+
+
+p{
+
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 1rem;
+    
+   
+}
+
+.hora{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.hora p{
+    width: max-content;
+
 }
